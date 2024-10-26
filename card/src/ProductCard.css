@@ -1,0 +1,92 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 220px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  .product-card__sponsored {
+    font-size: 0.8em;
+    color: #767676;
+    margin-bottom: 8px;
+  }
+  
+  .product-card__image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card__brand {
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .product-card__title {
+    font-size: 1em;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .product-card__rating {
+    color: #ffa41c;
+    font-size: 0.9em;
+  }
+  
+  .product-card__reviews {
+    color: #555;
+  }
+  
+  .product-card__price {
+    margin: 8px 0;
+  }
+  
+  .product-card__current-price {
+    font-size: 1.4em;
+    color: #b12704;
+    font-weight: bold;
+  }
+  
+  .product-card__original-price {
+    font-size: 0.9em;
+    color: #767676;
+    text-decoration: line-through;
+    margin-left: 8px;
+  }
+  
+  .product-card__discount {
+    font-size: 0.9em;
+    color: #b12704;
+    margin-left: 5px;
+  }
+  
+  .product-card__prime-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #111;
+  }
+  
+  .product-card__prime-icon {
+    color: #ffa41c;
+    margin-right: 5px;
+  }
+  
+  .product-card__delivery-date {
+    color: #111;
+  }
+  
+  .product-card__delivery-info {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .product-card__special-message {
+    color: #008a00;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
